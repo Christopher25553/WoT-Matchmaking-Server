@@ -39,7 +39,7 @@ dependencies {
 jar {
     duplicatesStrategy(DuplicatesStrategy.EXCLUDE)
     manifest {
-        attributes("Main-Class": "org.cteichert.MainServer", "Class-Path": ".")
+        attributes("Main-Class": "org.cteichert.server.MainServer", "Class-Path": ".")
     }
 }
 
